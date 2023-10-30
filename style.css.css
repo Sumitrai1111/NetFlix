@@ -1,0 +1,2247 @@
+/* Navbar css*/
+.bg-light {
+    background-color: #0c0c0d !important;
+}
+
+.navbar-light .navbar-brand {
+    color: red;
+    margin-left: 0.5%;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover {
+    color: red;
+}
+
+.dropdown {
+    margin-left: 78%;
+}
+
+.language {
+    text-align: center;
+    padding: 4px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 5px;
+}
+
+.backimg {
+    height: 500px;
+    width: 100%;
+    background-image: url('img/IN-en-20220919-popsignuptwoweeks-perspective_alpha_website_medium.jpg');
+    /* border: 2px solid red;*/
+    background-repeat: no-repeat;
+    background-size: 100% 500px;
+}
+
+.heading {
+    position: absolute;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 18%;
+    /* border: 1px solid red;*/
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+#search {
+    height: auto;
+    width: 30%;
+    font-size: 20px;
+}
+
+#Button0 {
+    margin-top: 0.6%;
+    background-color: red;
+}
+
+.tv {
+    position: relative;
+    padding: 3%;
+    color: white;
+    background: black;
+    border-top: 2px solid gray;
+    text-align: center;
+}
+
+#sectimg {
+    margin: auto;
+    width: 48%;
+    overflow: hidden;
+    text-align: center;
+}
+
+#sectimg>img {
+    text-align: center;
+    width: 85%;
+    height: 350px;
+    margin-top: -45%;
+
+}
+
+#sectimg>video {
+    height: 285px;
+    width: 65%;
+}
+
+
+.tv1 {
+    position: relative;
+    padding: 3%;
+    color: white;
+    background: black;
+    border-top: 2px solid gray;
+    text-align: center;
+}
+
+#sectimg1>img {
+    text-align: center;
+    width: 85%;
+    height: 350px;
+    margin-top: -45%;
+
+}
+
+.tv2 {
+    position: relative;
+    padding: 3%;
+    color: white;
+    background: black;
+    border-top: 2px solid gray;
+    text-align: center;
+}
+
+#sect2img {
+    margin: auto;
+    width: 48%;
+    overflow: hidden;
+    text-align: center;
+}
+
+#sect2img>img {
+    text-align: center;
+    width: 79%;
+    height: 350px;
+    margin-top: -45%;
+
+}
+
+#sect2img>video {
+    width: 53%;
+    height: 342px;
+    margin-left: -3%;
+}
+
+
+.tv3 {
+    position: relative;
+    padding: 3%;
+    color: white;
+    background: black;
+    border-top: 2px solid gray;
+    text-align: center;
+}
+
+#sectimg3>img {
+    text-align: center;
+    width: 85%;
+    height: 350px;
+    margin-top: -45%;
+
+}
+
+.tv4 {
+    position: relative;
+    padding: 3%;
+    color: white;
+    background: black;
+    border-top: 2px solid gray;
+    text-align: center;
+}
+
+.accordion-item {
+    background-color: rgb(63, 61, 61);
+    width: 650px;
+    text-align: start;
+    margin: auto;
+}
+
+.accordion-button {
+    background-color: rgb(63, 61, 61);
+    color: white;
+}
+
+.accordion-button:not(.collapsed) {
+    color: inherit;
+    background-color: rgb(63, 61, 61);
+}
+
+.accordion-button:not(.collapsed)::after {
+    filter: brightness(0%) invert(100%);
+
+}
+
+.accordion-button:focus {
+    box-shadow: inherit;
+}
+
+.accordion-body {
+    word-break: normal;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.question0 {
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.question1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+#Button1 {
+    margin-top: -0.4%;
+    background-color: red;
+}
+
+footer {
+    height: auto;
+    background-color: black;
+    color: white;
+    width: 100%;
+    border-top: 2px solid gray;
+    border-bottom: 2px solid gray;
+}
+
+.foottext {
+    color: gray;
+    margin-top: 2%;
+    margin-left: 13.5%;
+}
+
+.container {
+    color: rgb(137, 133, 133);
+    display: flex;
+}
+
+.foot {
+    /*border: 2px solid red;*/
+    margin: auto;
+}
+
+.dropdown1 {
+    margin-top: 1%;
+    margin-left: 13.5%;
+    margin-bottom: 2%;
+    border-color: gary;
+    color: gray;
+}
+
+.language1 {
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    background-color: black;
+    color: gray;
+    border: 1px solid gray;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+a {
+    color: gray;
+    text-decoration: none;
+}
+
+a:hover {
+    color: grey;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*media queries*/
+@media screen and (max-width:1381px) {
+    .navbar-light .navbar-brand {
+        font-size: 32px;
+    }
+
+    .dropdown {
+        margin-left: 72%;
+    }
+
+    .language {
+        font-size: 18px;
+    }
+
+    #But {
+        font-size: 14px;
+        height: 34px;
+        width: 72px;
+    }
+
+    .backimg {
+        height: 450px;
+    }
+
+    .heading {
+        margin-top: 12%;
+        margin-left: 25%;
+    }
+
+    #search {
+        width: 50%;
+        font-size: 20px;
+    }
+
+    #Button0 {
+        margin-top: 0.8%;
+        font-size: 16px;
+        height: 35px;
+        width: 135px;
+    }
+
+    #sectimg>img {
+        width: 84%;
+        height: 312px;
+        margin-top: -48%;
+    }
+
+    #sectimg>video {
+        width: 65%;
+        margin-left: 0%;
+    }
+
+    #sect1img>img {
+        width: 52%;
+        height: 412px;
+        margin-top: 0%;
+    }
+
+    #sect2img>img {
+        width: 80%;
+        height: 312px;
+        margin-top: -34%;
+    }
+
+    #sect2img>video {
+        height: 188px;
+        width: 60%;
+        margin-top: 8%;
+        margin-left: -3%;
+    }
+
+    #sect3img>img {
+        width: 35%;
+        height: 345px;
+        margin-top: 0%;
+    }
+
+    h3 {
+        font-size: 22px;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    .head1 {
+        font-size: 34px;
+    }
+
+    .head2 {
+        font-size: 34px;
+    }
+
+    .accordion-item {
+        width: 750px;
+    }
+
+    .accordion-button {
+        font-size: 15px;
+    }
+
+    .question1 {
+        font-size: 23px;
+    }
+
+    #Button1 {
+        margin-top: -0.9%;
+        font-size: 12px;
+        height: 37px;
+        width: 103px;
+    }
+
+    .foottext {
+        margin-left: 12%;
+    }
+
+    .foot {
+        margin-left: 2%;
+    }
+
+    .container {
+        width: 80%;
+    }
+
+    .language1 {
+        width: 88px;
+        height: 25px;
+        font-size: 15px;
+    }
+
+    .dropdown1 {
+        margin-left: 12%;
+    }
+
+
+}
+@media screen and (max-width:1281px) {
+    .navbar-light .navbar-brand {
+        font-size: 32px;
+    }
+
+    .dropdown {
+        margin-left: 70%;
+    }
+
+    .language {
+        font-size: 18px;
+    }
+
+    #But {
+        font-size: 14px;
+        height: 34px;
+        width: 70px;
+    }
+
+    .backimg {
+        height: 450px;
+    }
+
+    .heading {
+        margin-top: 15%;
+        margin-left: 20%;
+    }
+
+    #search {
+        width: 50%;
+        font-size: 20px;
+    }
+
+    #Button0 {
+        margin-top: 0.6%;
+        font-size: 16px;
+        height: 35px;
+        width: 135px;
+    }
+
+    #sectimg>img {
+        width: 84%;
+        height: 312px;
+        margin-top: -48%;
+    }
+
+    #sectimg>video {
+        width: 65%;
+        margin-left: 0%;
+    }
+
+    #sect1img>img {
+        width: 52%;
+        height: 412px;
+        margin-top: 0%;
+    }
+
+    #sect2img>img {
+        width: 80%;
+        height: 312px;
+        margin-top: -34%;
+    }
+
+    #sect2img>video {
+        height: 174px;
+        width: 60%;
+        margin-top: 8%;
+        margin-left: -3%;
+    }
+
+    #sect3img>img {
+        width: 35%;
+        height: 345px;
+        margin-top: 0%;
+    }
+
+    h3 {
+        font-size: 22px;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    .head1 {
+        font-size: 34px;
+    }
+
+    .head2 {
+        font-size: 34px;
+    }
+
+    .accordion-item {
+        width: 750px;
+    }
+
+    .accordion-button {
+        font-size: 15px;
+    }
+
+    .question1 {
+        font-size: 23px;
+    }
+
+    #Button1 {
+        margin-top: -0.9%;
+        font-size: 12px;
+        height: 37px;
+        width: 103px;
+    }
+
+    .foottext {
+        margin-left: 12%;
+    }
+
+    .foot {
+        margin-left: 2%;
+    }
+
+    .container {
+        width: 80%;
+    }
+
+    .language1 {
+        width: 88px;
+        height: 25px;
+        font-size: 15px;
+    }
+
+    .dropdown1 {
+        margin-left: 12%;
+    }
+
+
+}
+
+@media screen and (max-width:1126px) {
+    .navbar-light .navbar-brand {
+        font-size: 30px;
+    }
+
+    .dropdown {
+        margin-left: 68%;
+    }
+
+    .language {
+        font-size: 18px;
+    }
+
+    #But {
+        font-size: 14px;
+        height: 34px;
+        width: 70px;
+    }
+
+    .backimg {
+        height: 450px;
+    }
+
+    .heading {
+        margin-top: 15%;
+        margin-left: 20%;
+    }
+
+    #search {
+        width: 50%;
+        font-size: 20px;
+    }
+
+    #Button0 {
+        margin-top: 0.6%;
+        font-size: 16px;
+        height: 35px;
+        width: 135px;
+    }
+
+    #sectimg>img {
+        width: 105%;
+        height: 265px;
+        margin-top: -65%;
+    }
+
+    #sectimg>video {
+        width: 80%;
+        margin-left: 3%;
+    }
+
+    #sect1img>img {
+        width: 60%;
+        height: 360px;
+        margin-top: 0%;
+    }
+
+    #sect2img>img {
+        width: 88%;
+        height: 270px;
+        margin-top: -38%;
+    }
+
+    #sect2img>video {
+        height: 172px;
+        width: 62%;
+        margin-top: 8%;
+        margin-left: -2%;
+    }
+
+    #sect3img>img {
+        width: 45%;
+        height: 310px;
+        margin-top: 0%;
+    }
+
+    h3 {
+        font-size: 22px;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    .head1 {
+        font-size: 34px;
+    }
+
+    .head2 {
+        font-size: 34px;
+    }
+
+    .accordion-item {
+        width: 650px;
+    }
+
+    .accordion-button {
+        font-size: 15px;
+    }
+
+    .question1 {
+        font-size: 20px;
+    }
+
+    #Button1 {
+        margin-top: -0.9%;
+        font-size: 12px;
+        height: 37px;
+        width: 103px;
+    }
+
+    .foottext {
+        margin-left: 12%;
+    }
+
+    .foot {
+        margin-left: 2%;
+    }
+
+    .container {
+        width: 80%;
+    }
+
+    .language1 {
+        width: 88px;
+        height: 25px;
+        font-size: 15px;
+    }
+
+    .dropdown1 {
+        margin-left: 12%;
+    }
+
+
+}
+
+@media screen and (max-width:1025px) {
+    .navbar-light .navbar-brand {
+        font-size: 48px;
+    }
+
+    .dropdown {
+        margin-left: 45%;
+    }
+
+    .language {
+        font-size: 28px;
+    }
+
+    #But {
+        font-size: 24px;
+        height: 48px;
+        width: 115px;
+    }
+
+    .backimg {
+        height: 450px;
+    }
+
+    .heading {
+        margin-top: 15%;
+        margin-left: 15%;
+    }
+
+    #search {
+        width: 50%;
+        font-size: 20px;
+    }
+
+    #Button0 {
+        margin-top: 0.6%;
+        font-size: 16px;
+        height: 35px;
+        width: 135px;
+    }
+
+    #sectimg>img {
+        width: 105%;
+        height: 265px;
+        margin-top: -68%;
+    }
+
+    #sectimg>video {
+        width: 80%;
+        margin-left: 3%;
+    }
+
+    #sect1img>img {
+        width: 60%;
+        height: 360px;
+        margin-top: 0%;
+    }
+
+    #sect2img>img {
+        width: 90%;
+        height: 262px;
+        margin-top: -40%;
+    }
+
+    #sect2img>video {
+        height: 172px;
+        width: 62%;
+        margin-top: 8%;
+        margin-left: -2%;
+    }
+
+    #sect3img>img {
+        width: 45%;
+        height: 310px;
+        margin-top: 0%;
+    }
+
+    h3 {
+        font-size: 22px;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    .head1 {
+        font-size: 34px;
+    }
+
+    .head2 {
+        font-size: 34px;
+    }
+
+    .accordion-item {
+        width: 450px;
+    }
+
+    .accordion-button {
+        font-size: 15px;
+    }
+
+    .question1 {
+        font-size: 15px;
+    }
+
+    #Button1 {
+        margin-top: -0.9%;
+        font-size: 12px;
+        height: 37px;
+        width: 103px;
+    }
+
+    .foottext {
+        margin-left: 12%;
+    }
+
+    .foot {
+        margin-left: 2%;
+    }
+
+    .container {
+        width: 80%;
+    }
+
+    .language1 {
+        width: 88px;
+        height: 25px;
+        font-size: 15px;
+    }
+
+    .dropdown1 {
+        margin-left: 12%;
+    }
+
+
+}
+
+@media screen and (max-width:921px) {
+    .navbar-light .navbar-brand {
+        font-size: 48px;
+    }
+
+    .dropdown {
+        margin-left: 35%;
+    }
+
+    .language {
+        font-size: 28px;
+    }
+
+    #But {
+        font-size: 24px;
+        height: 48px;
+        width: 140px;
+    }
+
+    .backimg {
+        height: 450px;
+    }
+
+    .heading {
+        margin-top: 20%;
+        margin-left: 15%;
+    }
+
+    #search {
+        width: 50%;
+        font-size: 20px;
+    }
+
+    #Button0 {
+        margin-top: 0.6%;
+        font-size: 16px;
+        height: 35px;
+        width: 135px;
+    }
+
+    #sectimg>img {
+        width: 105%;
+        height: 230px;
+        margin-top: -78%;
+    }
+
+    #sectimg>video {
+        width: 80%;
+        margin-left: 3%;
+    }
+
+    #sect1img>img {
+        width: 70%;
+        height: 360px;
+        margin-top: 0%;
+    }
+
+    #sect2img>img {
+        width: 90%;
+        height: 262px;
+        margin-top: -40%;
+    }
+
+    #sect2img>video {
+        height: 142px;
+        width: 62%;
+        margin-top: 8%;
+        margin-left: -4%;
+    }
+
+    #sect3img>img {
+        width: 50%;
+        height: 310px;
+        margin-top: 0%;
+    }
+
+    h3 {
+        font-size: 22px;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    .head1 {
+        font-size: 34px;
+    }
+
+    .head2 {
+        font-size: 34px;
+    }
+
+    .accordion-item {
+        width: 450px;
+    }
+
+    .accordion-button {
+        font-size: 15px;
+    }
+
+    .question1 {
+        font-size: 15px;
+    }
+
+    #Button1 {
+        margin-top: -1.2%;
+        font-size: 13px;
+        height: 37px;
+        width: 103px;
+    }
+
+    .foottext {
+        margin-left: 13%;
+    }
+
+    .foot {
+        margin-left: 2%;
+    }
+
+    .container {
+        width: 90%;
+    }
+
+    .language1 {
+        width: 88px;
+        height: 25px;
+        font-size: 15px;
+    }
+
+    .dropdown1 {
+        margin-left: 13%;
+    }
+
+
+}
+
+@media screen and (max-width:821px) {
+    .navbar-light .navbar-brand {
+        font-size: 48px;
+    }
+
+    .dropdown {
+        margin-left: 28%;
+    }
+
+    .language {
+        font-size: 26px;
+    }
+
+    #But {
+        font-size: 24px;
+        height: 48px;
+        width: 140px;
+    }
+
+    .backimg {
+        height: 400px;
+    }
+
+    .heading {
+        margin-top: 20%;
+        margin-left: 15%;
+    }
+
+    #search {
+        width: 50%;
+        font-size: 20px;
+    }
+
+    #Button0 {
+        margin-top: 0.6%;
+        font-size: 16px;
+        height: 35px;
+        width: 135px;
+    }
+
+    #sectimg>img {
+        width: 105%;
+        height: 250px;
+        margin-top: -78%;
+    }
+
+    #sectimg>video {
+        width: 80%;
+        margin-left: 3%;
+    }
+
+    #sect1img>img {
+        width: 70%;
+        height: 360px;
+        margin-top: 0%;
+    }
+
+    #sect2img>img {
+        width: 90%;
+        height: 210px;
+        margin-top: -40%;
+    }
+
+    #sect2img>video {
+        height: 128px;
+        width: 95%;
+        margin-top: 5%;
+    }
+
+    #sect3img>img {
+        width: 50%;
+        height: 310px;
+        margin-top: 0%;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    .head1 {
+        font-size: 30px;
+    }
+
+    .head2 {
+        font-size: 30px;
+    }
+
+    .accordion-item {
+        width: 400px;
+    }
+
+    .accordion-button {
+        font-size: 15px;
+    }
+
+    .question1 {
+        font-size: 15px;
+    }
+
+    #Button1 {
+        margin-top: -1.2%;
+        font-size: 13px;
+        height: 37px;
+        width: 103px;
+    }
+
+    .foottext {
+        margin-left: 9%;
+    }
+
+    .foot {
+        margin-left: 2%;
+    }
+
+    .container {
+        width: 88%;
+    }
+
+    .language1 {
+        width: 88px;
+        height: 25px;
+        font-size: 15px;
+    }
+
+    .dropdown1 {
+        margin-left: 9%;
+    }
+
+
+}
+
+@media screen and (max-width:770px) {
+    .navbar-light .navbar-brand {
+        font-size: 48px;
+    }
+
+    .dropdown {
+        margin-left: 28%;
+    }
+
+    .language {
+        font-size: 26px;
+    }
+
+    #But {
+        font-size: 24px;
+        height: 48px;
+        width: 140px;
+    }
+
+    .backimg {
+        height: 400px;
+    }
+
+    .heading {
+        margin-top: 20%;
+        margin-left: 15%;
+    }
+
+    #search {
+        width: 50%;
+        font-size: 20px;
+    }
+
+    #Button0 {
+        margin-top: 0.6%;
+        font-size: 16px;
+        height: 35px;
+        width: 135px;
+    }
+
+    #sectimg>img {
+        width: 105%;
+        height: 230px;
+        margin-top: -86%;
+    }
+
+    #sectimg>video {
+        width: 82%;
+        margin-left: 3%;
+    }
+
+    #sect1img>img {
+        width: 70%;
+        height: 360px;
+        margin-top: 0%;
+    }
+
+    #sect2img>img {
+        width: 90%;
+        height: 210px;
+        margin-top: -40%;
+    }
+
+    #sect2img>video {
+        height: 128px;
+        width: 95%;
+        margin-top: 5%;
+    }
+
+    #sect3img>img {
+        width: 50%;
+        height: 310px;
+        margin-top: 0%;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    .head1 {
+        font-size: 30px;
+    }
+
+    .head2 {
+        font-size: 30px;
+    }
+
+    .accordion-item {
+        width: 400px;
+    }
+
+    .accordion-button {
+        font-size: 15px;
+    }
+
+    .question1 {
+        font-size: 15px;
+    }
+
+    #Button1 {
+        margin-top: -1.2%;
+        font-size: 13px;
+        height: 37px;
+        width: 103px;
+    }
+
+    .foottext {
+        margin-left: 9%;
+    }
+
+    .foot {
+        margin-left: 2%;
+    }
+
+    .container {
+        width: 88%;
+    }
+
+    .language1 {
+        width: 88px;
+        height: 25px;
+        font-size: 15px;
+    }
+
+    .dropdown1 {
+        margin-left: 9%;
+    }
+
+
+}
+
+@media screen and (max-width:651px) {
+    .dropdown {
+        margin-left: 51%;
+    }
+
+    .navbar-light .navbar-brand {
+        margin-left: 0.5%;
+        font-size: 25px;
+    }
+
+    .language {
+        font-size: 15px;
+    }
+
+    #But {
+        font-size: 12px;
+        height: 30px;
+        width: 65px;
+    }
+
+    .heading {
+        font-size: 18px;
+        margin-top: 25%;
+        margin-left: 15%;
+    }
+
+    .backimg {
+        height: 350px;
+    }
+
+    #search {
+        width: 42%;
+        font-size: 15px;
+    }
+
+    #Button0 {
+        margin-top: -0.4%;
+        font-size: 12px;
+        height: 30px;
+        width: 100px;
+    }
+
+    #sectimg>img {
+        width: 70%;
+        height: 112px;
+        margin-top: -40%;
+    }
+
+    #sectimg>video {
+        height: 90px;
+        width: 55%;
+        margin-top: 2%;
+        margin-left: 0%;
+    }
+
+    #sect1img>img {
+        width: 45%;
+        height: 180px;
+        margin-top: -2%;
+    }
+
+    #sect2img>img {
+        width: 85%;
+        height: 160px;
+        margin-top: -38%;
+    }
+
+    #sect2img>video {
+        height: 101px;
+        width: 57%;
+        margin-top: 2%;
+        margin-left: -3%;
+    }
+
+    #sect3img>img {
+        width: 38%;
+        height: 205px;
+        margin-top: 0%;
+    }
+
+    h3 {
+        font-size: 14px;
+    }
+
+    p {
+        font-size: 8px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    .head1 {
+        font-size: 22px;
+    }
+
+    .head2 {
+        font-size: 22px;
+    }
+
+    .accordion-item {
+        width: 400px;
+    }
+
+    .accordion-button {
+        font-size: 12px;
+    }
+
+    .question1 {
+        font-size: 12px;
+    }
+
+    #Button1 {
+        margin-top: -0.4%;
+        font-size: 12px;
+        height: 30px;
+        width: 100px;
+    }
+
+    .foot {
+        margin-left: 2%;
+    }
+
+    .container {
+        width: 88%;
+    }
+
+    .language1 {
+        width: 65px;
+        height: 20px;
+        font-size: 12px;
+    }
+
+    .dropdown1 {
+        margin-left: 12%;
+    }
+
+    .foottext {
+        margin-left: 12%;
+    }
+}
+
+@media screen and (max-width:550px) {
+    .dropdown {
+        margin-left: 40%;
+    }
+
+    .navbar-light .navbar-brand {
+        margin-left: 0.5%;
+        font-size: 25px;
+    }
+
+    .language {
+        font-size: 15px;
+    }
+
+    #But {
+        font-size: 12px;
+        height: 30px;
+        width: 65px;
+    }
+
+    .heading {
+        font-size: 18px;
+        margin-top: 32%;
+        margin-left: 12%;
+    }
+
+    .backimg {
+        height: 350px;
+    }
+
+    #search {
+        width: 42%;
+        font-size: 15px;
+    }
+
+    #Button0 {
+        margin-top: -0.4%;
+        font-size: 12px;
+        height: 30px;
+        width: 100px;
+    }
+
+    #sectimg>img {
+        width: 70%;
+        height: 112px;
+        margin-top: -40%;
+    }
+
+    #sectimg>video {
+        height: 75px;
+        width: 92%;
+        margin-top: 5%;
+        margin-left: 0%;
+    }
+
+    #sect1img>img {
+        width: 65%;
+        height: 212px;
+        margin-top: -2%;
+    }
+
+    #sect2img>img {
+        width: 86%;
+        height: 135px;
+        margin-top: -38%;
+    }
+
+    #sect2img>video {
+        height: 79px;
+        width: 60%;
+        margin-top: 5%;
+    }
+
+    #sect3img>img {
+        width: 55%;
+        height: 242px;
+        margin-top: -4%;
+    }
+
+    h3 {
+        font-size: 14px;
+    }
+
+    p {
+        font-size: 8px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    .head1 {
+        font-size: 22px;
+    }
+
+    .head2 {
+        font-size: 22px;
+    }
+
+    .accordion-item {
+        width: 400px;
+    }
+
+    .accordion-button {
+        font-size: 12px;
+    }
+
+    .question1 {
+        font-size: 12px;
+    }
+
+    #Button1 {
+        margin-top: -0.4%;
+        font-size: 12px;
+        height: 30px;
+        width: 100px;
+    }
+
+    .foot {
+        margin-left: 2%;
+    }
+
+    .container {
+        width: 88%;
+    }
+
+    .language1 {
+        width: 80px;
+        height: 26px;
+        font-size: 15px;
+    }
+
+    .dropdown1 {
+        margin-left: 10%;
+    }
+
+    .foottext {
+        margin-left: 10%;
+    }
+}
+
+@media screen and (max-width:501px) {
+    .dropdown {
+        margin-left: 32%;
+    }
+
+    .navbar-light .navbar-brand {
+        margin-left: 0.5%;
+        font-size: 20px;
+    }
+
+    .language {
+        font-size: 15px;
+    }
+
+    #But {
+        font-size: 12px;
+        height: 30px;
+        width: 65px;
+    }
+
+    .heading {
+        font-size: 17px;
+        margin-top: 32%;
+        margin-left: 10%;
+    }
+
+    .backimg {
+        height: 350px;
+    }
+
+    #search {
+        width: 42%;
+        font-size: 15px;
+    }
+
+    #Button0 {
+        margin-top: -0.4%;
+        font-size: 12px;
+        height: 30px;
+        width: 100px;
+    }
+
+    #sectimg>img {
+        width: 80%;
+        height: 102px;
+        margin-top: -48%;
+    }
+
+    #sectimg>video {
+        height: 70px;
+        width: 72%;
+        margin-top: 5%;
+        margin-left: -1%;
+    }
+
+    #sect1img>img {
+        width: 60%;
+        height: 140px;
+        margin-top: -2%;
+    }
+
+    #sect2img>img {
+        width: 84%;
+        height: 102px;
+        margin-top: -48%;
+    }
+
+    #sect2img>video {
+        height: 79px;
+        width: 60%;
+        margin-top: 5%;
+    }
+
+    #sect3img>img {
+        width: 62%;
+        height: 180px;
+        margin-top: -4%;
+    }
+
+    h3 {
+        font-size: 12px;
+    }
+
+    p {
+        font-size: 8px;
+    }
+
+    .head1 {
+        font-size: 18px;
+    }
+
+    .head2 {
+        font-size: 18px;
+    }
+
+    .accordion-item {
+        width: 300px;
+    }
+
+    .accordion-button {
+        font-size: 12px;
+    }
+
+    .question1 {
+        font-size: 8px;
+    }
+
+    #Button1 {
+        margin-top: -0.4%;
+        font-size: 12px;
+        height: 30px;
+        width: 100px;
+    }
+
+    .foottext {
+        margin-left: 9%;
+    }
+
+    .foot {
+        margin-left: 2%;
+    }
+
+    .container {
+        width: 88%;
+    }
+
+    .language1 {
+        width: 80px;
+        height: 26px;
+        font-size: 15px;
+    }
+
+    .dropdown1 {
+        margin-left: 10%;
+    }
+
+    .foottext {
+        margin-left: 10%;
+    }
+}
+
+@media screen and (max-width:421px) {
+    .sectimg>img {
+        width: 100%;
+        height: 118px;
+        margin-top: -52%;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width:451px) {
+    .dropdown {
+        margin-left: 22%;
+    }
+
+    .navbar-light .navbar-brand {
+        margin-left: 0.5%;
+        font-size: 20px;
+    }
+
+    .language {
+        font-size: 15px;
+    }
+
+    #But {
+        font-size: 15px;
+        height: 30px;
+        width: 75px;
+    }
+
+    .heading {
+        font-size: 17px;
+        margin-top: 40%;
+        margin-left: 2%;
+    }
+
+    .backimg {
+        height: 350px;
+    }
+
+    #search {
+        width: 42%;
+        font-size: 15px;
+    }
+
+    #Button0 {
+        margin-top: -0.4%;
+        font-size: 12px;
+        height: 30px;
+        width: 100px;
+    }
+
+    #sectimg>img {
+        width: 84%;
+        height: 102px;
+        margin-top: -48%;
+    }
+
+    #sectimg>video {
+        height: 70px;
+        width: 72%;
+        margin-top: 5%;
+    }
+
+    #sect1img>img {
+        width: 60%;
+        height: 140px;
+        margin-top: -2%;
+    }
+
+    #sect2img>img {
+        width: 84%;
+        height: 102px;
+        margin-top: -48%;
+    }
+
+    #sect2img>video {
+        height: 79px;
+        width: 56%;
+        margin-top: 5%;
+    }
+
+    #sect3img>img {
+        width: 62%;
+        height: 180px;
+        margin-top: -4%;
+    }
+
+    h3 {
+        font-size: 12px;
+    }
+
+    p {
+        font-size: 8px;
+    }
+
+    .head1 {
+        font-size: 18px;
+    }
+
+    .head2 {
+        font-size: 18px;
+    }
+
+    .accordion-item {
+        width: 300px;
+    }
+
+    .accordion-button {
+        font-size: 12px;
+    }
+
+    .question1 {
+        font-size: 8px;
+    }
+
+    #Button1 {
+        margin-top: -0.4%;
+        font-size: 12px;
+        height: 30px;
+        width: 100px;
+    }
+
+    .foottext {
+        margin-left: 9%;
+    }
+
+    .foot {
+        margin-left: 2%;
+    }
+
+    .container {
+        width: 88%;
+    }
+
+    .language1 {
+        width: 80px;
+        height: 26px;
+        font-size: 15px;
+    }
+
+    .dropdown1 {
+        margin-left: 10%;
+    }
+
+    .foottext {
+        margin-left: 10%;
+    }
+}
+
+@media screen and (max-width:401px) {
+    .dropdown {
+        margin-left: 22%;
+    }
+
+    .navbar-light .navbar-brand {
+        margin-left: 0.5%;
+        font-size: 20px;
+    }
+
+    .language {
+        font-size: 15px;
+    }
+
+    #But {
+        font-size: 15px;
+        height: 30px;
+        width: 75px;
+    }
+
+    .heading {
+        font-size: 17px;
+        margin-top: 40%;
+        margin-left: 2%;
+    }
+
+    .backimg {
+        height: 350px;
+    }
+
+    #search {
+        width: 42%;
+        font-size: 15px;
+    }
+
+    #Button0 {
+        margin-top: -0.4%;
+        font-size: 12px;
+        height: 30px;
+        width: 100px;
+    }
+
+    #sectimg>img {
+        width: 100%;
+        height: 120px;
+        margin-top: -57%;
+    }
+
+    #sectimg>video {
+        height: 82px;
+        width: 78%;
+    }
+
+    #sect1img>img {
+        width: 60%;
+        height: 140px;
+        margin-top: -2%;
+    }
+
+    #sect2img>img {
+        width: 100%;
+        height: 130px;
+        margin-top: -47%;
+    }
+
+    #sect2img>video {
+        height: 72px;
+        width: 92%;
+    }
+
+    #sect3img>img {
+        width: 62%;
+        height: 180px;
+        margin-top: -4%;
+    }
+
+    h3 {
+        font-size: 12px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    p {
+        font-size: 8px;
+    }
+
+    .head1 {
+        font-size: 18px;
+    }
+
+    .head2 {
+        font-size: 18px;
+    }
+
+    .accordion-item {
+        width: 350px;
+    }
+
+    .accordion-button {
+        font-size: 12px;
+    }
+
+    .question1 {
+        font-size: 8px;
+    }
+
+    #Button1 {
+        margin-top: -0.4%;
+        font-size: 12px;
+        height: 30px;
+        width: 100px;
+    }
+
+    .foottext {
+        margin-left: 9%;
+    }
+
+    .foot {
+        margin-left: 2%;
+    }
+
+    .container {
+        width: 88%;
+    }
+
+    .language1 {
+        width: 80px;
+        height: 26px;
+        font-size: 15px;
+    }
+
+    .dropdown1 {
+        margin-left: 10%;
+    }
+
+    .foottext {
+        margin-left: 10%;
+    }
+}
+
+@media screen and (max-width:376px) {
+    .dropdown {
+        margin-left: 20%;
+    }
+
+    .navbar-light .navbar-brand {
+        margin-left: 0.5%;
+        font-size: 20px;
+    }
+
+    .language {
+        font-size: 12px;
+    }
+
+    #But {
+        font-size: 15px;
+        height: 30px;
+        width: 65px;
+    }
+
+    .heading {
+        font-size: 17px;
+        margin-top: 40%;
+        margin-left: 0%;
+    }
+
+    .backimg {
+        height: 350px;
+    }
+
+    #search {
+        width: 42%;
+        font-size: 15px;
+    }
+
+    #Button0 {
+        margin-top: -0.4%;
+        font-size: 12px;
+        height: 30px;
+        width: 100px;
+    }
+
+    #sectimg>img {
+        width: 100%;
+        height: 105px;
+        margin-top: -63%;
+    }
+
+    #sectimg>video {
+        height: 82px;
+        width: 78%;
+    }
+
+    #sect1img>img {
+        width: 60%;
+        height: 140px;
+        margin-top: -2%;
+    }
+
+    #sect2img>img {
+        width: 102%;
+        height: 125px;
+        margin-top: -57%;
+    }
+
+    #sect2img>video {
+        height: 99px;
+        width: 71%;
+        margin-left: 0%;
+    }
+
+    #sect3img>img {
+        width: 62%;
+        height: 180px;
+        margin-top: -4%;
+    }
+
+    h3 {
+        font-size: 12px;
+    }
+
+    p {
+        font-size: 8px;
+    }
+
+    .head1 {
+        font-size: 18px;
+    }
+
+    .head2 {
+        font-size: 18px;
+    }
+
+    .accordion-item {
+        width: 300px;
+    }
+
+    .accordion-button {
+        font-size: 12px;
+    }
+
+    .question1 {
+        font-size: 8px;
+    }
+
+    #Button1 {
+        margin-top: -0.4%;
+        font-size: 12px;
+        height: 30px;
+        width: 100px;
+    }
+
+    .foottext {
+        margin-left: 9%;
+    }
+
+    .foot {
+        margin-left: 2%;
+    }
+
+    .container {
+        width: 88%;
+    }
+
+    .language1 {
+        width: 80px;
+        height: 26px;
+        font-size: 15px;
+    }
+
+    .dropdown1 {
+        margin-left: 10%;
+    }
+
+    .foottext {
+        margin-left: 10%;
+    }
+}
+
+@media screen and (max-width:281px) {
+    .dropdown {
+        margin-left: 4%;
+    }
+
+    .navbar-light .navbar-brand {
+        margin-left: 0.5%;
+        font-size: 18px;
+    }
+
+    .language {
+        font-size: 10px;
+    }
+
+    #But {
+        font-size: 9px;
+        height: 26px;
+        width: 55px;
+    }
+
+    .heading {
+        font-size: 17px;
+        margin-top: 45%;
+        margin-left: 5%;
+    }
+
+    .backimg {
+        height: 280px;
+    }
+
+    #search {
+        width: 45%;
+        font-size: 10px;
+    }
+
+    #Button0 {
+        margin-top: 0.6%;
+        font-size: 8px;
+        height: 22px;
+        width: 74px;
+    }
+
+    #sectimg>img {
+        width: 100%;
+        height: 82px;
+        margin-top: -85%;
+    }
+
+    #sectimg>video {
+        height: 82px;
+        width: 78%;
+    }
+
+    #sect1img>img {
+        width: 60%;
+        height: 140px;
+        margin-top: -2%;
+    }
+
+    #sect2img>img {
+        width: 102%;
+        height: 95px;
+        margin-top: -88%;
+    }
+
+    #sect2img>video {
+        height: 99px;
+        width: 71%;
+        margin-left: 0%;
+    }
+
+    #sect3img>img {
+        width: 60%;
+        height: 150px;
+        margin-top: -4%;
+    }
+
+    h3 {
+        font-size: 8px;
+    }
+
+    p {
+        font-size: 6px;
+    }
+
+    h2 {
+        font-size: 15px;
+    }
+
+    .head1 {
+        font-size: 12px;
+    }
+
+    .head2 {
+        font-size: 12px;
+    }
+
+    .accordion-item {
+        width: 180px;
+    }
+
+    .accordion-button {
+        font-size: 8px;
+    }
+
+    .question1 {
+        font-size: 6px;
+    }
+
+    #Button1 {
+        margin-top: -0.4%;
+        font-size: 8px;
+        height: 22px;
+        width: 75px;
+    }
+
+    .foot {
+        margin-left: 2%;
+    }
+
+    .container {
+        width: 88%;
+    }
+
+    .language1 {
+        width: 62px;
+        height: 22px;
+        font-size: 10px;
+    }
+
+    .dropdown1 {
+        margin-left: 11%;
+    }
+
+    .foottext {
+        margin-left: 11%;
+        font-size: 8px;
+    }
+}
